@@ -1,0 +1,1 @@
+Static Redirect Example Using .htaccess
