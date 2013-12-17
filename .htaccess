@@ -11,9 +11,10 @@
 <IfModule mod_rewrite.c>
     RewriteEngine On
 
-    RewriteRule ^pricing_availability/(.*) /pricing-availability/$1 [R=301,L]
-    RewriteRule ^pricingavailability/(.*) /pricing-availability/$1 [R=301,L]
+    RewriteRule ^pricing_availability /pricing-availability/ [R=301,L]
+    RewriteRule ^pricingavailability /pricing-availability/ [R=301,L]
     RewriteRule ^pricingandavailability.html /pricing-availability/ [R=301,L]
+    RewriteRule ^doesntexist.html /pricing-availability/ [R=301,L]
 
     RewriteCond %{REQUEST_FILENAME} !-d
     RewriteCond %{REQUEST_FILENAME} !-f
