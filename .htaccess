@@ -1,5 +1,4 @@
 # Apache Server Configs v2.0.0 | MIT License
-# https://github.com/h5bp/server-configs-apache
 
 # (!) Using `.htaccess` files slows down Apache, therefore, if you have access
 # to the main server config file (usually called `httpd.conf`), you should add
@@ -14,6 +13,7 @@
 
     RewriteRule ^pricing_availability/(.*) /pricing-availability/$1 [R=301,L]
     RewriteRule ^pricingavailability/(.*) /pricing-availability/$1 [R=301,L]
+    RewriteRule ^pricingandavailability.html /pricing-availability/ [R=301,L]
 
     RewriteCond %{REQUEST_FILENAME} !-d
     RewriteCond %{REQUEST_FILENAME} !-f
