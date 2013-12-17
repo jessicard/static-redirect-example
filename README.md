@@ -1,7 +1,7 @@
 static-redirect-example
 ======================
 
-This is an example for a static Heroku app that redirects folders using PHP, [HTML5 Boilerplate](http://html5boilerplate.com/), and a .htaccess file.
+This is an example for a static Heroku app that redirects folders using PHP, [HTML5 Boilerplate](http://html5boilerplate.com/), and an .htaccess file.
 
 See live example [here](http://static-redirect-example.herokuapp.com/).
 
