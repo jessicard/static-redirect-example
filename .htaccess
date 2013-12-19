@@ -15,6 +15,7 @@
     RewriteRule ^pricingavailability /pricing-availability/ [R=301,L]
     RewriteRule ^pricingandavailability.html /pricing-availability/ [R=301,L]
     RewriteRule ^doesntexist.html /pricing-availability/ [R=301,L]
+    RewriteRule ^goestoroot / [R=301,L]
 
     RewriteCond %{REQUEST_FILENAME} !-d
     RewriteCond %{REQUEST_FILENAME} !-f
